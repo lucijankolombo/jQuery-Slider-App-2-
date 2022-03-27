@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Cabin", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-bottom: 3.5rem;
+  height: calc(100vh * 14 / 100);
+  background-color: #d1d1d1;
+  float: right;
+  width: calc(100vw * 65 / 100);
+  right: 0;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  height: calc(100vh * 14 / 100);
+  background-color: #d1d1d1;
+  float: right;
+  width: calc(100vw * 65 / 100);
+  right: 0;
+}
+
+.row-first {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  left: -36%;
+}
+
+.row-first img {
+  height: 27vh;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0 4px;
+}
+
+.row-second {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  left: -46%;
+  margin-top: 10px;
+}
+
+.row-second img {
+  height: 27vh;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0 4px;
+}
+
+.aside {
+  float: right;
+  height: 50px;
+  margin-left: 1rem;
+}
+
+.aside h2 {
+  color: #1b5087;
+  width: 300px;
+  margin-top: 5px;
+  line-height: 1.35;
+  font-weight: bold;
+}
+
+.aside span {
+  line-height: 1.35;
+  color: #575858;
+}
+
+.btn {
+  float: right;
+  margin-left: 5.2rem;
+}
+
+.btn button {
+  height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  border: 2px solid #1b5087;
+  margin-bottom: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  border: 2px solid #d1d1d1;
+  color: #d1d1d1;
+}
+
+.btn button i {
+  color: #1b5087;
+  font-weight: 900;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  padding: 12px 0;
+}
+
+.btn button i:hover {
+  color: #d1d1d1;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
